@@ -1,0 +1,4 @@
+escenario,magnitud,profundidad_km,distancia_km,k,categoria_estimada,votos_Leve (I-IV),votos_Moderada (V-VI),votos_Fuerte (VII-XII),prob_Leve (I-IV),prob_Moderada (V-VI),prob_Fuerte (VII-XII)
+Escenario 1 - Sismo moderado cercano,5.2,35.0,25.0,9,Moderada (V-VI),0,9,0,0.0,1.0,0.0
+Escenario 2 - Sismo pequeño y lejano,3.8,15.0,90.0,9,Leve (I-IV),9,0,0,1.0,0.0,0.0
+"Escenario 3 - Sismo grande, superficial y cercano",6.9,20.0,15.0,9,Fuerte (VII-XII),0,1,8,0.0,0.111,0.889

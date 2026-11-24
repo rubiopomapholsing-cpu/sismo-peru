@@ -1,0 +1,95 @@
+{
+  "k_seleccionado": 9,
+  "limpieza": {
+    "filas_iniciales": 698,
+    "duplicados_eliminados": 8,
+    "filas_con_nulos_eliminadas": 5,
+    "filas_fuera_de_rango_eliminadas": 5,
+    "filas_finales": 680,
+    "eventos": 230
+  },
+  "distribucion_clases": {
+    "Leve (I-IV)": 478,
+    "Moderada (V-VI)": 136,
+    "Fuerte (VII-XII)": 66
+  },
+  "n_train": 544,
+  "n_test": 136,
+  "eventos_train": 184,
+  "eventos_test": 46,
+  "cv": [
+    {
+      "K": 3,
+      "exactitud_media": 0.8437,
+      "exactitud_desv": 0.0379,
+      "f1_macro_medio": 0.7627,
+      "f1_macro_desv": 0.0523
+    },
+    {
+      "K": 5,
+      "exactitud_media": 0.8547,
+      "exactitud_desv": 0.0273,
+      "f1_macro_medio": 0.7759,
+      "f1_macro_desv": 0.039
+    },
+    {
+      "K": 7,
+      "exactitud_media": 0.8584,
+      "exactitud_desv": 0.0251,
+      "f1_macro_medio": 0.7751,
+      "f1_macro_desv": 0.0483
+    },
+    {
+      "K": 9,
+      "exactitud_media": 0.8695,
+      "exactitud_desv": 0.0394,
+      "f1_macro_medio": 0.7811,
+      "f1_macro_desv": 0.0741
+    }
+  ],
+  "test": {
+    "exactitud": 0.8676470588235294,
+    "precision_macro": 0.8023611111111112,
+    "recall_macro": 0.8490518009418353,
+    "f1_macro": 0.8216716118270523,
+    "linea_base_mayoritaria": 0.7132352941176471,
+    "por_clase": {
+      "Leve (I-IV)": {
+        "precision": 0.9270833333333334,
+        "recall": 0.9175257731958762,
+        "f1-score": 0.9222797927461139,
+        "support": 97.0
+      },
+      "Moderada (V-VI)": {
+        "precision": 0.68,
+        "recall": 0.6296296296296297,
+        "f1-score": 0.6538461538461539,
+        "support": 27.0
+      },
+      "Fuerte (VII-XII)": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 12.0
+      }
+    },
+    "matriz_confusion": [
+      [
+        89,
+        8,
+        0
+      ],
+      [
+        7,
+        17,
+        3
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ]
+  },
+  "fuente": "simulado"
+}
